@@ -13,8 +13,6 @@
 #' 
 #' `pvcovHC` is replaced by `vcovHC`.
 #'
-#' `detect_lin_dep` was renamed to `detect.lindep`.
-#' 
 #' @name plm-deprecated
 #' @aliases detect_lin_dep
 #' @param formula a formula,
@@ -24,17 +22,11 @@
 #' variables should be differenced,
 #' @param log.form a vector (or a list) of logical values indicating whether
 #' variables should be in logarithms.
-#' @param object,x an object of class `"plm"`,
+#' @param x an object of class `"plm"`,
 #' @param data a `data.frame`,
 #' @param \dots further arguments.
 #' @param indexes a vector (of length one or two) indicating the (individual
 #' and time) indexes (see Details);
-#' @param lhs see Formula
-#' @param rhs see Formula
-#' @param model see plm
-#' @param effect see plm
-#' @param theta the parameter of transformation for the random effect model
-#' @param cstcovar.rm remove the constant columns or not
 #' 
 NULL
 

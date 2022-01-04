@@ -21,6 +21,8 @@ dynformula(formula, lag.form = NULL, diff.form = NULL, log.form = NULL)
 \method{print}{dynformula}(x, ...)
 }
 \arguments{
+\item{x}{an object of class \code{"plm"},}
+
 \item{\dots}{further arguments.}
 
 \item{indexes}{a vector (of length one or two) indicating the (individual
@@ -37,21 +39,7 @@ variables should be differenced,}
 \item{log.form}{a vector (or a list) of logical values indicating whether
 variables should be in logarithms.}
 
-\item{object, x}{an object of class \code{"plm"},}
-
 \item{data}{a \code{data.frame},}
-
-\item{lhs}{see Formula}
-
-\item{rhs}{see Formula}
-
-\item{model}{see plm}
-
-\item{effect}{see plm}
-
-\item{theta}{the parameter of transformation for the random effect model}
-
-\item{cstcovar.rm}{remove the constant columns or not}
 }
 \description{
 \code{dynformula}, \code{pht}, \code{plm.data}, and \code{pvcovHC} are
@@ -67,6 +55,4 @@ using the more general \code{plm} function.
 \code{plm.data} is replaced by \code{pdata.frame}.
 
 \code{pvcovHC} is replaced by \code{vcovHC}.
-
-\code{detect_lin_dep} was renamed to \code{detect.lindep}.
 }
